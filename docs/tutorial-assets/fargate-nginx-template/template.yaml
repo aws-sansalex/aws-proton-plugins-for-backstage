@@ -93,10 +93,10 @@ spec:
         branchName: main
         serviceSpecPath: ./spec.yaml
         # Update the following fields to match the resources in your AWS account
-        region: us-east-1
-        templateName: backstage-proton-plugins-tutorial-svc-template
+        region: us-west-2
+        templateName: apigw-service-template
         templateMajorVersion: '1'
-        repositoryConnectionArn: 'arn:aws:codestar-connections:us-east-1:111111111111:connection/c176b204-5bb1-48f1-b977-5aff4fa2df9d'
+        repositoryConnectionArn: 'arn:aws:codestar-connections:us-east-1:882073461973:connection/994dc3c6-663f-4849-8b8a-26006b0ece92'
 
     - id: register
       name: Register
